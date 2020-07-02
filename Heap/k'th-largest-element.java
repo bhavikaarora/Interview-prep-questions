@@ -1,4 +1,7 @@
-/*Given an array of N positive integers, print k largest elements from the array.  The output elements should be printed in decreasing order.
+/*  GFG
+https://practice.geeksforgeeks.org/problems/k-largest-elements/0
+
+Given an array of N positive integers, print k largest elements from the array.  The output elements should be printed in decreasing order.
 
 Input:
 The first line of input contains an integer T denoting the number of test cases. The first line of each test case is N and k, N is the size of array and K is the largest elements to be returned. The second line of each test case contains N input C[i].
