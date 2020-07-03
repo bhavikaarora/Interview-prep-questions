@@ -1,5 +1,6 @@
 /*
 https://practice.geeksforgeeks.org/problems/find-median-in-a-stream/0
+
 Given an input stream of N integers. The task is to insert these numbers into a new stream and find the median of the stream formed by each insertion of X to the new stream.
 
 Input:
@@ -23,6 +24,8 @@ Output:
 10
 5
 4
+
+REFER VIDEO: https://www.youtube.com/watch?v=VmogG01IjYc
 */
 
 
@@ -43,10 +46,8 @@ class main
 	     for(int i=0;i<n;i++)
 	        a[i] = sc.nextInt();
 	    
-	     PriorityQueue<Integer> minheap=new PriorityQueue<>(); //minheap for upper part of numbers (bigger numbers)
-	                                                            //as we need the minimum number from this set
-	     PriorityQueue<Integer> maxheap=new PriorityQueue<>(Collections.reverseOrder());//maxheap for lower part of numbers (lesser numbers)
-	                                                                            //as we need the maximum number from this set for the median
+	     PriorityQueue<Integer> minheap=new PriorityQueue<>(); 
+	     PriorityQueue<Integer> maxheap=new PriorityQueue<>(Collections.reverseOrder());
 	     int median[] = new int[n];
 	     for(int i=0;i<n;i++){
 	         int x = a[i];
