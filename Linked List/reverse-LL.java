@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 class ReverseLL
 {
     // This function should reverse linked list and return
