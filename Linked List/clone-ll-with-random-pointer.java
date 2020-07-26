@@ -13,7 +13,7 @@ class Clone {
         if(head==null) return head;
         
         Node curr = head;
-        //inserting nodes in between and making ll double it's size
+        // insert nodes in between. the size of ll becomes twice
         while(curr!=null){
             Node clone = new Node(curr.data);
             Node nextnode = curr.next;
@@ -23,7 +23,7 @@ class Clone {
         }
         
         curr = head;
-        
+        //random pointers
         while(curr!=null){
             if(curr.arb==null) curr.next.arb = null;
             else curr.next.arb = curr.arb.next;
@@ -31,6 +31,7 @@ class Clone {
             curr = curr.next.next;
         }
         
+        //de-linking the ll
         curr = head;
         Node clonehead = new Node(0); //next node from this would be the actual head of the cloned ll
         Node temp = clonehead;   
