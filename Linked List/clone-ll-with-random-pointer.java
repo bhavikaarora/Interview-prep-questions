@@ -45,6 +45,5 @@ class Clone {
         
         return clonehead.next;
         
-        
     }
 }
