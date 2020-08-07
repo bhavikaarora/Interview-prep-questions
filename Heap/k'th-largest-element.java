@@ -1,5 +1,4 @@
-/*  GFG
-https://practice.geeksforgeeks.org/problems/k-largest-elements/0
+/*  GFG  https://practice.geeksforgeeks.org/problems/k-largest-elements/0
 
 Given an array of N positive integers, print k largest elements from the array.  The output elements should be printed in decreasing order.
 
