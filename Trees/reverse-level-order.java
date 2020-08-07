@@ -6,7 +6,6 @@ Given a Binary Tree of size N. You have to print the Reverse Level Order Travers
                                            
 
 
-
 class Tree
 {
 	public void reversePrint(Node node) {
